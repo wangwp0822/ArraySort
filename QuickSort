@@ -10,6 +10,7 @@
 Nodejs程序实现
 1.普通数组的快速排序
 
+
     /**
      * 普通数组快速排序
      * @param array 数字数组
@@ -69,3 +70,7 @@ exports.quickSortObj = function(array,key,dir) {
     }
     return this.quickSortObj(left, key, dir).concat(pivotObj, this.quickSortObj(right, key, dir));
 };
+
+2.按数组对象中的属性进行快速排序
+
+>>>>>>> origin/master
